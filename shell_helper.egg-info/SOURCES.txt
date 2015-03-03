@@ -1,0 +1,9 @@
+README.txt
+setup.py
+shell_helper/__init__.py
+shell_helper/callbacks.py
+shell_helper/shellhelper.py
+shell_helper.egg-info/PKG-INFO
+shell_helper.egg-info/SOURCES.txt
+shell_helper.egg-info/dependency_links.txt
+shell_helper.egg-info/top_level.txt
