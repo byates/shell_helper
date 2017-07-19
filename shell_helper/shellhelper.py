@@ -38,7 +38,10 @@ class ShellHelper(object):
 
         self.CloseLogFile()
 
-        self.__LogFile = open(LogFileName, Filemode)
+        try:
+            self.__LogFile = open(LogFileName, Filemode)
+        except IOError:
+            self.__LogFile = None
 
     def __MaybeAddToLog(self, line):
         """
