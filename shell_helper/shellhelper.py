@@ -266,7 +266,7 @@ class ShellHelper(object):
 
 
 def __callback_test(text):
-    print '*' + text
+    print('*' + text)
 
 
 if __name__ == '__main__':
