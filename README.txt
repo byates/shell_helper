@@ -5,6 +5,9 @@ Additionally there are commands for deleting files and copying files.
 
 To Install:
 Linux: sudo easy_install dist/shell_helper-1.5-py2.7.egg
+or
+Linux: sudo pip install shell_helper
+
 Windows: easy_install dist\shell_helper-1.5-py2.7.egg
 
 To Build the installer EGG:
